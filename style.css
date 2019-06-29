@@ -1,0 +1,32 @@
+body {
+    width:800px;
+    height:600px;
+    background-color: #FFBE0B;
+    color: #3A86FF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+}
+
+#main {
+    text-align: center;
+    position: absolute;
+    top:10%;
+    left:25%;
+    height:70%;
+    width: 50%;}
+
+#questionField {
+    height:20%;
+}
+
+#answerField {
+    height: 60%;
+}
+
+button {
+    background-color: #3A86FF;
+    border:none;
+    padding:3%;
+    color:#fff;
+    border-radius: 5%;
+}

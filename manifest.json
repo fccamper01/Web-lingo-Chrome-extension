@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "Web lingo quiz",
+	"description": "Memorize web terms through repetition",
+	"version": "1",
+	"author": "Alona Ponomarenko",
+	"browser_action": {
+		"default_icon": "tab-icon.png",
+		"default_title": "Have a good day"
+	},
+	"chrome_url_overrides": {
+		"newtab": "lingo.html"
+	},
+	"permissions": ["activeTab "],
+
+    "browser_action": {
+		"default_popup": "lingo.html"
+    }
+}
